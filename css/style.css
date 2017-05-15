@@ -165,7 +165,7 @@ p {
 =====================================================*/
 
 .content-box {
-    padding: 30px 0;
+    padding: 60px 0;
 }
 
 .content-title h3 {
@@ -522,4 +522,17 @@ ul.pricing-spec li p{
     font-weight: 300;
     text-transform: uppercase;
     font-size: 16px;
+}
+
+/*=====================================================
+    ---- Clients ----
+=====================================================*/
+
+.client{
+    padding: 40px 0;
+    width: 100%;
+}
+
+#clients .content-box{
+   padding: 60px 0 60px 0;
 }

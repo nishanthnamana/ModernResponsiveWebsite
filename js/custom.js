@@ -21,7 +21,7 @@ $(function () {
 });
 
 /*=====================================================
-    ---- Team Carousel ----
+    ---- Carousel ----
 =====================================================*/
 
 $(function () {
@@ -51,7 +51,19 @@ $(function(){
     });
     
     
-});
+});$(function () {
+
+    $("#clients-list").owlCarousel({
+        items: 6,
+        autoplay: true,
+        smartSpeed: 800,
+        loop: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 900
+         });
+    });
+
+
 
 /*=====================================================
     ---- Counter ----
@@ -64,4 +76,6 @@ $(function(){
                 time: 3000
             });
 
-})
+});
+
+
