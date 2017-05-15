@@ -486,3 +486,40 @@ ul.pricing-spec li p{
 .pricing-box-lg ul.pricing-spec li p{
     color: #fff;
 }
+
+/*=====================================================
+    ---- STATS ----
+=====================================================*/
+#stats-cover{
+    background-image: url(../img/bg-stats.jpg);
+
+}
+#stats-cover .content-box{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.stats-item{
+    padding: 100px 0;
+}
+
+.stats-item i{
+    color: #34c6d3;
+    font-size: 5em;
+}
+
+
+.stats-item h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+
+}
+
+.stats-item p{
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+}
