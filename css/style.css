@@ -211,7 +211,7 @@ p {
 .service-item-title h3 {
     margin: 0 0 10px 0;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .service-item-descp p {
@@ -354,6 +354,10 @@ h4.team-member-designation {
 
 .social-icon i:hover {
     color: #34c6d3;
+}
+
+.icon-white i{
+    color: #fff;
 }
 
 /*=====================================================
@@ -536,3 +540,56 @@ ul.pricing-spec li p{
 #clients .content-box{
    padding: 60px 0 60px 0;
 }
+
+/*=====================================================
+    ---- Contact Us ----
+=====================================================*/
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 5px solid;
+}
+
+#contact-left h3, #contact-right h3{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-left p strong{
+    font-size: 17px;
+}
+
+#contact-info{
+    background-image: url(..//img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address{
+    color: #fff;
+}
+
+address strong, #phone-fax-email strong{
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+
+form .form-control{
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
