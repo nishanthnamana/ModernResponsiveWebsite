@@ -356,38 +356,39 @@ h4.team-member-designation {
     color: #34c6d3;
 }
 
-.icon-white i{
+.icon-white i {
     color: #fff;
 }
+
 
 /*=====================================================
     ---- TESTIMONIALS ----
 =====================================================*/
 
-.content-title-white h3{
+.content-title-white h3 {
     color: #fff;
     padding-top: 20px;
 }
 
-#testimonials-cover{
+#testimonials-cover {
     background-image: url("..//img/bg-testimonials.jpg");
 }
 
-#testimonials .content-box{
-    background-color: rgba(0,0,0,0.1);
+#testimonials .content-box {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-#customers-testimonials{
+#customers-testimonials {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.testimonial img{
+.testimonial img {
     max-width: 120px;
     margin: 0 auto 0 auto;
 }
 
-.testimonial blockquote{
+.testimonial blockquote {
     border: 0;
     font-family: Georgia, sans-serif;
     font-style: italic;
@@ -399,51 +400,50 @@ h4.team-member-designation {
     position: relative;
 }
 
-.testimonial blockquote::before{
+.testimonial blockquote::before {
     content: "\201C";
     left: 100px;
     top: 0;
 }
 
-.testimonial blockquote::after{
+.testimonial blockquote::after {
     content: "\201D";
     right: 100px;
     bottom: 0;
 }
 
-
-.testimonial blockquote::before, .testimonial blockquote::after{
+.testimonial blockquote::before,
+.testimonial blockquote::after {
     font-style: none;
     font-size: 80px;
     line-height: 1;
     width: 30px;
     height: 30px;
     position: absolute;
-
 }
 
-.testimonial-authors p{
+.testimonial-authors p {
     color: #fff;
     font-size: 17px;
-    
 }
 
-.testimonial-authors p strong{
+.testimonial-authors p strong {
     display: block;
     letter-spacing: 1px;
 }
+
 
 /*=====================================================
     ---- PRICING ----
 =====================================================*/
 
-.pricing-box{
+.pricing-box {
     border: 3px solid #34c6d3;
     padding: 50px 0;
     margin: 40px 0;
 }
 
-h4.pricing-title{
+h4.pricing-title {
     background-color: #34c6d3;
     color: #fff;
     display: inline-block;
@@ -454,12 +454,12 @@ h4.pricing-title{
     margin: 0 0 30px 0;
 }
 
-h3.pricing-value{
+h3.pricing-value {
     font-size: 60px;
     font-weight: 700;
 }
 
-h3.pricing-value sup{
+h3.pricing-value sup {
     font-size: 28px;
     font-weight: normal;
     vertical-align: super;
@@ -471,79 +471,82 @@ h3.pricing-value sup{
     margin: 20px 0 60px 0;
 }
 
-ul.pricing-spec li p{
+ul.pricing-spec li p {
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.pricing-box-lg{
+.pricing-box-lg {
     padding: 90px 0;
     margin: 0;
     background-color: #34c6d3;
 }
 
-.pricing-box-lg h4.pricing-title{
+.pricing-box-lg h4.pricing-title {
     color: #34c6d3;
     background-color: #fff;
 }
 
-.pricing-box-lg ul.pricing-spec li p{
+.pricing-box-lg ul.pricing-spec li p {
     color: #fff;
 }
+
 
 /*=====================================================
     ---- STATS ----
 =====================================================*/
-#stats-cover{
+
+#stats-cover {
     background-image: url(../img/bg-stats.jpg);
-
-}
-#stats-cover .content-box{
-    background-color: rgba(0,0,0,0.8);
 }
 
-.stats-item{
+#stats-cover .content-box {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.stats-item {
     padding: 100px 0;
 }
 
-.stats-item i{
+.stats-item i {
     color: #34c6d3;
     font-size: 5em;
 }
 
-
-.stats-item h2{
+.stats-item h2 {
     color: #fff;
     font-weight: 700;
     font-size: 35px;
     margin-top: 15px;
     margin-bottom: 1px;
-
 }
 
-.stats-item p{
+.stats-item p {
     color: #fff;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 16px;
 }
 
+
 /*=====================================================
     ---- Clients ----
 =====================================================*/
 
-.client{
+.client {
     padding: 40px 0;
     width: 100%;
 }
 
-#clients .content-box{
-   padding: 60px 0 60px 0;
+#clients .content-box {
+    padding: 60px 0 60px 0;
 }
+
 
 /*=====================================================
     ---- Contact Us ----
 =====================================================*/
+
 footer {
     background-color: #41464b;
     padding-top: 30px;
@@ -551,38 +554,39 @@ footer {
     border-top: 5px solid;
 }
 
-#contact-left h3, #contact-right h3{
+#contact-left h3,
+#contact-right h3 {
     color: #fff;
     font-size: 27px;
     font-weight: 700;
 }
 
-#contact-left p{
+#contact-left p {
     color: #fff;
     margin-bottom: 30px;
 }
 
-#contact-left p strong{
+#contact-left p strong {
     font-size: 17px;
 }
 
-#contact-info{
+#contact-info {
     background-image: url(..//img/world-map.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-address{
+address {
     color: #fff;
 }
 
-address strong, #phone-fax-email strong{
+address strong,
+#phone-fax-email strong {
     letter-spacing: 1px;
     font-size: 17px;
 }
 
-
-form .form-control{
+form .form-control {
     background: transparent;
     border-radius: 0;
     border-color: #fff;
@@ -590,6 +594,4 @@ form .form-control{
     padding: 8px 16px;
     margin-bottom: 20px;
     color: #fff;
-
 }
-
