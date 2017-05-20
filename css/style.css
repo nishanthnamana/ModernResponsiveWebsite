@@ -551,7 +551,7 @@ footer {
     background-color: #41464b;
     padding-top: 30px;
     padding-bottom: 30px;
-    border-top: 5px solid rgba(0,0,0,0.1);
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 #contact-left h3,
@@ -596,64 +596,95 @@ form .form-control {
     color: #fff;
 }
 
+
 /*=====================================================
     ---- Footer ----
 =====================================================*/
 
-#footer-bottom{
-    background-color: rgba(0,0,0,0.1);
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 30px 0;
     margin-top: 60px;
 }
 
-#footer-copyrights p{
+#footer-copyrights p {
     margin: 0;
     color: #fff;
 }
 
-#footer-menu{
+#footer-menu {
     float: left;
     color: #fff;
     font-size: 16px;
     font-weight: 300;
-
 }
 
-#footer-menu ul{
+#footer-menu ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
-
 }
 
-#footer-menu ul li{
+#footer-menu ul li {
     display: inline-block;
-
 }
 
-#footer-menu a{
+#footer-menu a {
     color: #fff;
     font-weight: 300;
     font-size: 16px;
     margin: 0 10px;
     text-decoration: none;
-
 }
 
-#footer-menu a:hover{
+#footer-menu a:hover {
     color: #34c6d3;
 }
 
 
+/*=====================================================
+    ---- Navigational Bar ----
+=====================================================*/
 
+.navbar {
+    padding: 20px, 0;
+    transition: all .5s ease-in-out;
+}
 
+.vesco-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px, 0;
+}
 
+.vesco-nav-wrapper {
+    padding-left: 85px;
+    padding-right: 85px;
+}
 
+.navbar-nav {
+    float: right;
+}
 
+.navbar-nav>li>a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
 
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+    background: none;
+    color: #34c6d3;
+}
 
+.navbar-toggle {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
 
-
-
-
-
+.vesco-top-nav ul.navbar-nav li.active a {
+    color: #34c6d3;
+}
