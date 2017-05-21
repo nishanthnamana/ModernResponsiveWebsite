@@ -1,0 +1,41 @@
+/*=====================================================
+    ---- Bootstrap Media Queries based on grid system ----
+=====================================================*/
+
+/* Large devices (Desktop and Laptops)*/
+@media (min-width:1200px){
+   /* Everything is OK*/
+}
+
+/* Medium devices (Landscape Tablets and Medium Desktop)*/
+@media (min-width:992px) and (max-width: 1199px){
+
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .vesco-nav-wrapper{
+        padding: 0;
+    }
+
+    .navbar-nav{
+        float: left;
+    }
+
+}
+
+/* Small devices (Portrait Tablets and Small Desktop)*/
+@media (min-width:768px) and (max-width: 991px){
+
+}
+
+/* Extra Small devices (Landscape Phones and Portrait Tablets)*/
+@media (max-width:767px) {
+
+}
+
+/* Extra Small devices (Smaller Devices)*/
+@media (max-width: 480px){
+
+}

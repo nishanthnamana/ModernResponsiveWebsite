@@ -76,18 +76,20 @@ $(function () {
 
 //To show/hide the navigation bar background
 
-//$(function(){
-//    $(window).scroll(function(){
-//        if($(this).scrollTop()<50){
-//
-//            $("nav").removeClass("vesco-top-nav");
-//
-//           }else{
-//            $("nav").addClass("vesco-top-nav");
-//           }
-//    });
-//
-//});
+$(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop()<50){
+
+            $("nav").removeClass("vesco-top-nav");
+            $("#back-to-top").fadeOut();
+
+           }else{
+            $("nav").addClass("vesco-top-nav");
+            $("#back-to-top").fadeIn();
+           }
+    });
+
+});
 
 
 //Smooth Scrolling
@@ -102,3 +104,24 @@ $(function () {
         }, 1250, "easeInOutExpo");
     });
 });
+
+//Navbar closing on clicking menu options
+
+$(function(){
+    $(".navbar-collapse ul li a").on("click touch",function(){
+        $(".navbar-toggle").click();
+    });
+
+});
+
+
+
+
+
+
+
+
+
+
+
+

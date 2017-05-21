@@ -159,6 +159,16 @@ p {
     color: #fff;
 }
 
+.btn-back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 3px 15px;
+    font-size: 22px;
+    border-radius: 0;
+    display: none;
+}
+
 
 /*=====================================================
     ---- CONTENT BOX GENERAL ----
@@ -683,6 +693,9 @@ form .form-control {
     background: rgba(0, 0, 0, 0.1);
     border: 1px solid #fff;
     border-radius: 0;
+}
+.navbar-toggle .icon-bar{
+    background-color: #fff;
 }
 
 .vesco-top-nav ul.navbar-nav li.active a {
