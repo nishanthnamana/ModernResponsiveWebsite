@@ -47,9 +47,7 @@
         height: 350px;
     }
     .about-content-box{
-        width: 100%;
         height: 350px;
-        padding-top: 0px;
     }
 
     .stats-item{
@@ -63,9 +61,67 @@
 /* Extra Small devices (Landscape Phones and Portrait Tablets)*/
 @media (max-width:767px) {
 
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .vesco-nav-wrapper{
+        padding: 0;
+    }
+
+    .navbar-nav{
+        float: left;
+    }
+
+    #home-heading h3{
+        font-size: 24px;
+    }
+    .btn-general{
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+
+    #about-bg-diagonal{
+        border: 0;
+        width: 100%;
+        height: 350px;
+    }
+ .about-content-box{
+        height: 350px;
+    }
+
+    .stats-item{
+        padding: 20px 0px;
+    }
+     #footer-copyrights{
+        text-align: center;
+    }
+
+    .img-wrapper img{
+        min-width: 100%;
+    }
+
+    .testimonial blockquote:before{
+        left: 10px;
+    }
+
+    .testimonial blockquote:after{
+        right: 10px;
+    }
+
+    .testimonial blockquote p{
+        font-size: 14px;
+    }
+    .testimonial blockquote{
+        padding: 10px 50px;
+    }
 }
 
-/* Extra Small devices (Smaller Devices)*/
-@media (max-width: 480px){
-
+@media (max-width: 320px){
+    .service-item-icon i{
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
 }
