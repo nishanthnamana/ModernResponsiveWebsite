@@ -402,7 +402,7 @@ h4.team-member-designation {
     border: 0;
     font-family: Georgia, sans-serif;
     font-style: italic;
-    padding top: 6px;
+    padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 150px;
     padding-right: 150px;
@@ -424,7 +424,7 @@ h4.team-member-designation {
 
 .testimonial blockquote::before,
 .testimonial blockquote::after {
-    font-style: none;
+
     font-size: 80px;
     line-height: 1;
     width: 30px;
@@ -657,13 +657,13 @@ form .form-control {
 =====================================================*/
 
 .navbar {
-    padding: 20px, 0;
+    padding: 20px 0;
     transition: all .5s ease-in-out;
 }
 
 .vesco-top-nav {
     background: rgba(0, 0, 0, 0.7);
-    padding: 7px, 0;
+    padding: 7px 0;
 }
 
 .vesco-nav-wrapper {
